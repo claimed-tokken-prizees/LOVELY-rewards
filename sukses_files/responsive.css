@@ -1,0 +1,653 @@
+@media only screen and (max-width: 1599px) {
+  .nav-link {
+    margin-left: 2.4rem;
+    font-size: 18px;
+  }
+
+  .map-section {
+    padding-bottom: 100px;
+  }
+
+  .quick-link li a {
+    font-size: 16px;
+  }
+
+  footer .container {
+    padding: 0 3rem;
+  }
+
+  .f-logo {
+    max-width: 280px;
+  }
+
+  .navbar-brand {
+    max-width: 280px;
+  }
+
+  section {
+    padding: 120px 0;
+  }
+  .navbar-expand-lg {
+    padding: 40px 0;
+  }
+
+  .d-margin {
+    margin-top: 132px;
+  }
+}
+
+@media only screen and (max-width: 1429px) {
+  .home-banner-section {
+    padding-left: 0;
+  }
+
+  .navbar-expand-lg .container-fluid {
+    padding: 0 15px;
+  }
+
+  .navbar-brand {
+    max-width: 220px;
+  }
+
+  .navbar-expand-lg {
+    padding: 40px 0;
+  }
+  .home-banner-section {
+    padding-left: 0;
+  }
+
+  .navbar-expand-lg .container-fluid {
+    padding: 0 15px;
+  }
+
+  .navbar-brand {
+    max-width: 220px;
+  }
+
+  .title-border {
+  width: 68%;
+  }
+
+  .track-section {
+    padding-top: 100px;
+  }
+
+  section {
+    padding: 100px 0;
+  }
+
+  .track-box {
+    padding: 4rem 0;
+    border-radius: 60px;
+  }
+
+  .track-box-sec {
+    padding: 1rem 0;
+  }
+
+  .prodimage-phone {
+    height: 500px;
+  }
+
+  .launchpad-title {
+    font-size: 50px;
+  }
+
+  .launchpad-link li a {
+    font-size: 18px;
+    margin: 20px;
+  }
+
+  .launchpad-link {
+    margin-bottom: 40px;
+  }
+
+  .subtitle h4 {
+    font-size: 60px;
+  }
+
+  .subtitle h6 {
+    font-size: 26px;
+  }
+
+  .border-both {
+    margin-top: 0;
+  }
+
+  .complete-item-wrap {
+    padding: 30px 0 30px;
+  }
+
+  .vision-section h6::before {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .nav-link {
+    margin-left: 25px;
+  }
+
+  .btn-header-pink {
+    padding: 12px 30px !important;
+  }
+
+  .track-link li a {
+    font-size: 16px;
+    margin: 8px;
+  }
+
+  .track-link {
+    margin: 0 -8px;
+  }
+
+  .exchanges-section {
+    padding: 50px 0 100px;
+  }
+
+  .exchanges-logo {
+    padding-top: 20px;
+  }
+
+  .vision-ul {
+    flex-wrap: wrap;
+  }
+
+  .vision-ul > li {
+    width: 33.33%;
+  }
+  footer .col-lg-12 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .f-logo {
+    margin: 10px auto 10px 0;
+  }
+
+  footer .social-ul {
+    margin: 10px -5px;
+  }
+
+  footer {
+    padding: 40px 0 60px 0;
+  }
+
+  .copyright {
+    margin-top: 60px;
+  }
+
+  .copyright p {
+    font-size: 16px;
+  }
+
+  footer h5 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .family-section {
+    padding-bottom: 100px;
+  }
+
+  .vision-section {
+    padding-bottom: 100px;
+  }
+
+  .title-border {
+    line-height: initial;
+  }
+
+  .btn-border-gold {
+    font-size: 18px;
+  }
+
+  .keybox {
+    flex-wrap: wrap;
+  }
+
+  .keybox input {
+    width: 100%;
+  }
+
+  .keybox a {
+    margin: 15px 0 0 0;
+  }
+  .home-banner-img {
+    max-width: 560px;
+  }
+
+  .vision-section h6::before, .vision-section h6::after {
+    width: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .navbar-toggler-icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #da3282;
+    transition: all 0.5s;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    z-index: 999;
+  }
+
+  .navbar-toggler-icon::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #da3282;
+    top: -8px;
+    position: absolute;
+    left: 0;
+    transition: all 0.5s;
+  }
+
+  .navbar-toggler-icon::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #da3282;
+    bottom: -8px;
+    position: absolute;
+    left: 0;
+    transition: all 0.5s;
+  }
+
+  html.show-menu .navbar-toggler-icon {
+    background: #0000;
+    transition: all 0.5s;
+  }
+
+  html.show-menu .navbar-toggler-icon::after {
+    top: 0;
+    transform: rotate(45deg);
+    transition: all 0.5s;
+  }
+
+  html.show-menu .navbar-toggler-icon::before {
+    bottom: 0;
+    transform: rotate(-45deg);
+    transition: all 0.5s;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  div#navbarSupportedContent {
+    display: block !important;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: #ffffff;
+    overflow: auto;
+    padding: 90px 15px 15px;
+    transition: all 0.5s;
+    transform: translate(-50%, -50%) scale(0.2);
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .nav-link {
+    margin: 15px 0 !important;
+  }
+
+  .nav-link::after {
+    bottom: 0;
+  }
+
+  .nav-link:hover, .nav-link.active {
+    color: #b01972;
+  }
+
+  html.show-menu div#navbarSupportedContent {
+    transform: scale(1) translate(-50%, -50%);
+    transition: all 0.5s;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .d-margin {
+    margin-top: 115px;
+    padding-top: 0;
+  }
+
+  .dream-section .col-xl-5 {
+    order: -1;
+    margin-bottom: 30px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  .track-section {
+    padding-top: 60px;
+  }
+
+  .title {
+    font-size: 40px;
+    line-height: initial;
+  }
+
+  .title-border {
+    margin-bottom: 40px;
+    max-width: 410px;
+  }
+
+  .title-border::after {
+    bottom: -40px;
+  }
+
+  .dream-info p {
+    margin-bottom: 40px;
+  }
+
+  .track-box {
+    border-radius: 30px;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+  }
+
+  .track-item {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .track-item h4 {
+    font-size: 40px;
+    margin: 0;
+    line-height: initial;
+  }
+
+  .track-item h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .border-both {
+    margin-bottom: 50px;
+  }
+
+  .seen-section {
+    padding: 0 0 40px 0;
+  }
+
+  .seen-logo li {
+    padding: 0 20px;
+  }
+
+  .roadmap-title span {
+    font-size: 14px;
+    letter-spacing: 6px;
+  }
+
+  .vision-ul h6 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .family-info {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .dream-img {
+    max-width: 220px;
+  }
+
+  .family-img {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+  .launchpad-title {
+    font-size: 50px;
+  }
+
+  .launchpad-section {
+    padding: 50px 0;
+  }
+
+  .launchpad-link {
+    flex-wrap: wrap;
+  }
+
+  .launchpad-link li a {
+    font-size: 16px;
+    margin: 10px;
+    padding: 12px 30px;
+  }
+
+  .subtitle h4 {
+    font-size: 60px;
+  }
+
+  .subtitle h6 {
+    font-size: 20px;
+  }
+
+  .complete-item-wrap li {
+    padding: 15px;
+  }
+
+  .complete-item-wrap {
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .keybox input {
+    font-size: 18px;
+  }
+
+  .btn-border-gold {
+    padding: 12px 30px;
+  }
+
+  .btn-pink {
+    font-size: 18px;
+  }
+
+  .dream-info p {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .track-box {
+    margin: 30px 0;
+  }
+
+  .vision-ul > li {
+    width: 50%;
+  }
+
+  footer .col-lg-12 {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .f-logo {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  footer h5,
+  .quick-link {
+    max-width: 100%;
+  }
+
+  footer .container {
+    padding: 0 1.5rem;
+  }
+  .launchpad-title {
+    font-size: 40px;
+  }
+
+  .complete-item-wrap {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .copyright {
+    padding-right: 0;
+    margin-top: 30px;
+  }
+
+  .map-section {
+    padding-bottom: 50px;
+  }
+
+  .title {
+    font-size: 34px;
+  }
+
+  .border-both {
+    margin-bottom: 30px;
+  }
+
+  .border-both::before, .border-both::after {
+    display: none;
+  }
+  .border-both::after {
+    background-image: url(../image/dream-line.svg);
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+    display: block;
+    transform: unset;
+    top: unset;
+  }
+
+  .border-both {
+    width: max-content;
+  }
+
+  .vision-section::after {
+    display: none;
+  }
+
+  .border-both {
+    margin-bottom: 60px;
+  }
+
+  .family-info p {
+    font-size: 16px;
+  }
+
+  .roadmap-title span {
+    margin-bottom: 0;
+  }
+
+  .seen-logo {
+    flex-wrap: wrap;
+  }
+
+  .seen-logo li {
+    width: 50%;
+    padding: 15px;
+  }
+
+  .exchanges-section {
+    padding: 50px 0;
+  }
+
+  .vision-section {
+    padding: 50px 0;
+  }
+
+  .seen-section {
+    padding: 50px 0;
+  }
+
+  .track-section {
+    padding: 50px 0;
+  }
+
+  section {
+    padding: 50px 0;
+  }
+  .complete-item-wrap {
+    justify-content: center;
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .complete-item-wrap li {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .title {
+    width: 100%;
+  }
+
+  .dream-info {
+    padding: 0;
+  }
+
+  .title-border::after {
+    left: 0;
+  }
+
+  .track-link li a {
+    padding: 10px 24px;
+  }
+
+  .vision-ul > li {
+    width: 100%;
+  }
+  
+  .subtitle h4 {
+    font-size: 42px;
+  }
+
+  .subtitle {
+    margin-bottom: 55px;
+  }
+
+  .launchpad-link li a {
+    padding: 12px 22px;
+  }
+
+  .launchpad-title {
+    font-size: 34px;
+  }
+
+  footer h5 {
+    font-size: 30px;
+  }
+  
+  footer h5 {
+    color: #f76daf;
+  }
+
+  .exchanges-logo {
+		margin: 0;
+	}
+}
